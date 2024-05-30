@@ -1,0 +1,118 @@
+.main{
+    position: relative;
+    margin-top: 30px;
+    background: gray;
+    width: 100%;
+    height: 1560px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    .menu {
+        position: relative;
+        height: 500px;
+        background-color: #f0f0f0;
+        padding: 20px;
+        border-radius: 5px;
+      }
+      
+      .menu h2 {
+        margin-bottom: 20px;
+      }
+      
+      .menu-list {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      
+      .menu-list li {
+        list-style-type: none;
+      }
+      
+      .menu-list li h3 {
+        margin: 0;
+        padding: 5px 10px;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      
+      .menu-list li h3:hover {
+        background-color: #f0f0f0;
+      }
+      
+    ul li:hover{
+        color: red;
+
+    }
+    
+}
+.main2{
+    background-color: white;
+    color: black;
+        position: relative;
+        width: 950px;
+        height: 1520px;
+        border-radius:3%;
+        border: 3px solid black;
+       
+        .u{ 
+            padding-top: 20px;
+            padding-left: 20px;
+            display: flex;
+            flex-direction: row;
+            gap: 30px;
+            .card
+            {
+               position: relative;
+               width: 200px;
+               height: 280px;
+               border: 3px solid gray;
+               border-radius:3%;
+            }
+            img{
+                margin-top: 8px;
+                margin-left: 22px;
+                border: 1px solid black;
+                position: relative;
+                width: 150px;
+                height: 160px ;
+                border-radius: 5%;
+            }
+            h5{
+                text-align: center;
+                color: red;
+            }
+            b{
+                margin-left: 5px;
+                
+            }
+            .icon{
+                margin-top: 5px;
+                margin-right: 20px;
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+
+            }
+            p{
+                padding-top: 5px;
+            }
+            
+        }
+        .last{
+            display: flex;
+            flex-direction: row;
+            gap: 110px;
+            margin-top: 10px;
+            margin-left: 5px;
+            p{
+                color: gray;
+                font-size: smaller;
+            }
+                
+            }
+
+}

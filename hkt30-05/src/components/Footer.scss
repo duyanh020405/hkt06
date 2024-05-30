@@ -1,0 +1,40 @@
+.ngang{
+    margin-top: 10px;
+    position: relative;
+    width: 1300px;
+    height: 2px;
+    background-color: black;
+}
+.footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    font-weight: bold;
+  }
+  
+  tr:last-child td {
+    border-bottom: none;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #000;
+  }
+  
